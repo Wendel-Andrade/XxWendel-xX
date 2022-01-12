@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paradox Complex - Seu futuro como desenvolver começa aqui!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2? family= Roboto:wght@100 & display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="intro">
+        <img class="cyberpunk" src="cyberpunk.jpg" alt="Jogos e Consoles">
+        <h2>Aqui sua criatividade é posta em prática, 
+        vem fazer parte da nossa equipe e nos ajude a crescer mais e mais!</h2>
+        </div>
+        <div>
+            <form>
+                <input type="text" placeholder="Email ou telefone">
+                <input type="password" placeholder="Senha">
+                 <button class="entrar">Entrar</button>
+                <a href="#">Esqueceu a senha ?</a>
+                <button class="criar">Criar nova conta</button>
+            </form>
+            <p>Não consegue acessar sua conta ? <a href="#">Clique aqui</a></p>
+        </div>
+    </div>
+    <footer>Cyberpunk ©<span id="year"></span></footer>
+    <script>
+        const year = document.getElementById('year');
+        const actualYear = new Date();
+        year.innerHTML = actualYear.getFullYear();
+    </script>
+</body>
+</html>
